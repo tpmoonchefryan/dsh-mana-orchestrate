@@ -1,0 +1,5 @@
+# The bundle patch inserts one independently named entry. It does not claim
+# ownership of the host approval surface or any governed control tree.
+- insert:
+    - id: mana-orchestrate
+      name: dsh-mana-orchestrate

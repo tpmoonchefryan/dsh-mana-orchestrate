@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "tcrn.dsh-twp.license-inventory.v1",
+  "package": "dsh-mana-orchestrate",
+  "packageLicense": "Apache-2.0",
+  "packageLicenseDisposition": "Apache-2.0; declared in package.json and shipped in LICENSE",
+  "thirdPartyNotices": {
+    "present": true,
+    "disposition": "shipped in package files"
+  },
+  "peerDependencies": [
+    {
+      "name": "@deepseek-ai/cordis",
+      "requested": "4.0.1",
+      "installedVersion": "4.0.1",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/cordis/package.json"
+    },
+    {
+      "name": "@deepseek-ai/dsh-agent",
+      "requested": "0.1.0-rc.7",
+      "installedVersion": "0.1.0-rc.7",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/dsh-agent/package.json"
+    },
+    {
+      "name": "@deepseek-ai/dsh-client-runtime",
+      "requested": "0.1.0-rc.7",
+      "installedVersion": "0.1.0-rc.7",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/dsh-client-runtime/package.json"
+    },
+    {
+      "name": "@deepseek-ai/dsh-client-ui-layout",
+      "requested": "0.1.0-rc.7",
+      "installedVersion": "0.1.0-rc.7",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/dsh-client-ui-layout/package.json"
+    },
+    {
+      "name": "@deepseek-ai/dsh-client-ui-primitives",
+      "requested": "0.1.0-rc.7",
+      "installedVersion": "0.1.0-rc.7",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/dsh-client-ui-primitives/package.json"
+    },
+    {
+      "name": "@deepseek-ai/dsh-client-ui-slots",
+      "requested": "0.1.0-rc.7",
+      "installedVersion": "0.1.0-rc.7",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/dsh-client-ui-slots/package.json"
+    },
+    {
+      "name": "@deepseek-ai/dsh-host-webserver",
+      "requested": "0.1.0-rc.7",
+      "installedVersion": "0.1.0-rc.7",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/dsh-host-webserver/package.json"
+    },
+    {
+      "name": "@deepseek-ai/dsh-llm",
+      "requested": "0.1.0-rc.7",
+      "installedVersion": "0.1.0-rc.7",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/dsh-llm/package.json"
+    },
+    {
+      "name": "@deepseek-ai/dsh-subprocess",
+      "requested": "0.1.0-rc.7",
+      "installedVersion": "0.1.0-rc.7",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/dsh-subprocess/package.json"
+    },
+    {
+      "name": "@deepseek-ai/dsh-tools",
+      "requested": "0.1.0-rc.7",
+      "installedVersion": "0.1.0-rc.7",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/dsh-tools/package.json"
+    },
+    {
+      "name": "@deepseek-ai/dsh-user-approval",
+      "requested": "0.1.0-rc.7",
+      "installedVersion": "0.1.0-rc.7",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/dsh-user-approval/package.json"
+    },
+    {
+      "name": "@deepseek-ai/schemastery",
+      "requested": "3.18.1",
+      "installedVersion": "3.18.1",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/@deepseek-ai/schemastery/package.json"
+    },
+    {
+      "name": "react",
+      "requested": "18.3.1",
+      "installedVersion": "18.3.1",
+      "license": "MIT",
+      "licenseFilePresent": true,
+      "source": "node_modules/react/package.json"
+    }
+  ],
+  "generatedBy": "scripts/license-inventory.mjs"
+}

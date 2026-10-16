@@ -1,0 +1,141 @@
+/*
+ * Diagnostic overlay styling follows the Host card/button token vocabulary.
+ * No literal colors or inline geometry are used by the React surface.
+ */
+
+.badgeAnchor {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 50;
+  pointer-events: auto;
+}
+
+.overlayCard {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 50;
+  width: min(360px, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  pointer-events: auto;
+  color: var(--dsw-alias-label-primary);
+  background: var(--dsw-alias-bg-layer-1);
+  border: 1px solid var(--dsw-alias-border-l2);
+  border-radius: 12px;
+  box-shadow: var(--dsw-shadow-lv2);
+  padding: 12px 14px;
+  font-family: var(--dsw-font-family-sans, inherit);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.overlayDisclosure {
+  width: 100%;
+}
+
+.overlayHeader {
+  height: 28px;
+}
+
+.overlayTitle {
+  color: var(--dsw-alias-label-primary);
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.overlayBody {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  padding-top: 10px;
+}
+
+.overlayActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.source {
+  color: var(--dsw-alias-label-tertiary);
+  font-size: 11px;
+}
+
+.commandDetails,
+.diagnosticsDetails {
+  min-width: 0;
+}
+
+.commandSummary {
+  color: var(--dsw-alias-label-secondary);
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.commandDetails[open] .commandSummary,
+.diagnosticsDetails[open] .commandSummary {
+  color: var(--dsw-alias-label-primary);
+}
+
+.overlayBody p,
+.overlayBody ul {
+  margin: 0;
+}
+
+.doctorLines,
+.hookPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.doctorLines {
+  padding: 0;
+  list-style: none;
+}
+
+.doctorLine {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 0;
+}
+
+.doctorLine > :first-child {
+  flex: none;
+  margin-top: 4px;
+}
+
+.doctorLineText {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.command {
+  display: block;
+  overflow-wrap: anywhere;
+  color: var(--dsw-alias-label-tertiary);
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+.hookPanel {
+  border-top: 1px solid var(--dsw-alias-border-l2);
+  padding-top: 10px;
+  font-size: 11px;
+}
+
+.hookPanel p {
+  color: var(--dsw-alias-label-secondary);
+}
+
+.hookBlind {
+  color: var(--dsw-alias-state-warn-primary);
+}
